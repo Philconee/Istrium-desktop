@@ -94,18 +94,18 @@
       }
       storageService.switchContext(newnetwork)
       n = storageService.getGlobal('networks')
-      if (!n) {
+      if (n) {
         n = {
           mainnet: { // so far same as testnet
-            nethash: '6e84d08bd299ed97c212c886c98a57e36545c8f5d645ca7eeae63a8bd62d8988',
-            peerseed: 'http://5.39.9.240:4001',
+            nethash: 'e85ac444396c4fb4b8cf730ecebb0eda83c404a0be63c0ca7ece69534f8ab7ee',
+            peerseed: 'http://164.132.197.122:4100',
             forcepeer: false,
-            token: 'ARK',
-            symbol: 'Ѧ',
+            token: 'ISTR',
+            symbol: 'I',
             version: 0x17,
             slip44: 111,
             explorer: 'https://explorer.ark.io',
-            background: 'url(assets/images/images/Ark.jpg)',
+            background: 'url(assets/images/images/Space.jpg)',
             theme: 'default',
             themeDark: false
           },
