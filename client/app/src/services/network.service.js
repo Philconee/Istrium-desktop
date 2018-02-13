@@ -102,7 +102,7 @@
             forcepeer: false,
             token: 'ISTR',
             symbol: 'IS',
-            version: 0x17,
+            version: 30,
             slip44: 111,
             explorer: 'https://explorer.ark.io',
             background: 'url(assets/images/images/Space.jpg)',
